@@ -3,7 +3,7 @@
 > Graduation Project Dashboard 
 
 ---
-## ==================== Overview ====================
+## ======== Overview ===========
 
 TAMYEZ Admin Dashboard is a complete React-based dashboard system built as a graduation project.  
 The project was originally developed using pure HTML, CSS, Bootstrap, and JavaScript, then professionally converted into a scalable React architecture while preserving the original UI/UX design completely.
@@ -22,7 +22,7 @@ The project includes:
 
 ---
 
-# ==================== Tech Stack ====================
+# ==== Tech Stack =====
 
 | Technology | Description |
 |---|---|
@@ -34,7 +34,7 @@ The project includes:
 
 ---
 
-# ==================== Installation & Setup ====================
+# ==== Installation & Setup ====
 
 ## Clone the Repository
 
