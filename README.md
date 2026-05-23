@@ -69,7 +69,7 @@ npm run preview
 
 ---
 
-# ==================== 📁 Project Structure ====================
+# ==== 📁 Project Structure =====
 
 ```bash
 tamyez-react/
