@@ -106,7 +106,7 @@ tamyez-react/
 
 ---
 
-# ==================== 🛡️ Professional Features: ====================
+#====🛡️ Professional Features: ====
 
 
 ## ==== 🔐 Authentication & Protected Routes ====
@@ -121,7 +121,7 @@ If a user attempts to access protected routes such as:
 
 without authentication, they will automatically be redirected to the login page.
 
-### ============== Authentication Utilities ====================
+###==== Authentication Utilities ====
 
 Located inside:
 
@@ -136,7 +136,7 @@ Available methods:
 - `auth.isAuthenticated()`
 - `auth.getToken()`
 
-###  ============= Backend Integration Example ===============
+###  ==== Backend Integration Example ====
 
 Replace:
 
@@ -148,7 +148,7 @@ with the real token returned from your backend API.
 
 ---
 
-## ============= Reusable Loader Component ================
+##==== Reusable Loader Component ====
 
 Location:
 
@@ -158,19 +158,19 @@ src/components/Loader.jsx
 
 Supports 3 variants:
 
-### ==================== Full Page Loader ==================
+###==== Full Page Loader ====
 
 ```jsx
 <Loader fullPage text="Loading..." />
 ```
 
-### ==================== Inline Loader ====================
+### ==== Inline Loader ====
 
 ```jsx
 <Loader inline text="Loading users..." />
 ```
 
-### ==================== Button Loader ====================
+### ==== Button Loader ====
 
 ```jsx
 <button disabled={saving}>
@@ -180,7 +180,7 @@ Supports 3 variants:
 
 ---
 
-## ================= ❌ 404 Not Found Page =================
+## ====❌ 404 Not Found Page ====
 
 Any undefined route automatically redirects to the `NotFound` page.
 
@@ -191,13 +191,13 @@ The page includes:
 
 ---
 
-## ====================⬆️ Scroll To Top ====================
+## ==== ⬆️ Scroll To Top ====
 
 Automatically scrolls to the top when navigating between pages.
 
 ---
 
-# ==================== Backend Integration ====================
+# ==== Backend Integration ====
 
 All API calls are centralized inside:
 
@@ -210,7 +210,7 @@ src/services/api.js
 ## ✅ Setup Steps :- 
 
 
-### ================ 1. Define Your Backend URL ==================
+### ==== 1. Define Your Backend URL ====
 
 ```javascript
 const BASE_URL = 'https://your-backend-url.com/api'
@@ -218,7 +218,7 @@ const BASE_URL = 'https://your-backend-url.com/api'
 
 ---
 
-### ==================== 2. Import Required APIs ====================
+### ==== 2. Import Required APIs ====
 
 ```javascript
 import { usersAPI } from '../services/api'
@@ -226,7 +226,7 @@ import { usersAPI } from '../services/api'
 
 ---
 
-### ==================== 3. Replace Mock Data with API Calls ====================
+### ===== 3. Replace Mock Data with API Calls ====
 
 ###  ==== Before ====
 
@@ -255,7 +255,7 @@ useEffect(() => {
 
 # ========= Expected API Endpoints ===============
 
-## ============== Authentication =================
+## ==== Authentication ====
 
 - `POST /auth/login`
 - `POST /auth/register`
@@ -265,7 +265,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Users ====================
+## ==== Users ====
 
 - `GET /users`
 - `POST /users`
@@ -276,7 +276,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Careers ====================
+## ==== Careers ====
 
 - `GET /careers`
 - `POST /careers`
@@ -285,7 +285,7 @@ useEffect(() => {
 
 ---
 
-##  ==================== Roadmaps ====================
+##  ==== Roadmaps ====
 
 - `GET /roadmaps`
 - `POST /roadmaps`
@@ -295,7 +295,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Resources ====================
+## ==== Resources ====
 
 - `POST /resources/courses`
 - `POST /resources/books`
@@ -303,7 +303,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Quizzes ====================
+## ==== Quizzes ====
 
 - `GET /quizzes`
 - `POST /quizzes`
@@ -313,7 +313,7 @@ useEffect(() => {
 
 ---
 
-## ================ Notifications & Feedback ===============
+## ==== Notifications & Feedback ====
 
 - `POST /notifications/broadcast`
 - `GET /feedback`
@@ -321,7 +321,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Admin Settings ====================
+## ==== Admin Settings ====
 
 - `GET /admin/profile`
 - `PUT /admin/profile`
@@ -331,16 +331,16 @@ useEffect(() => {
 
 ---
 
-## ==================== Dashboard ====================
+## ==== Dashboard ====
 
 - `GET /dashboard/stats`
 - `GET /dashboard/activity`
 
 ---
 
-# ==================== Available Pages ====================
+# ==== Available Pages ====
 
-## ==================== Authentication Pages (8) ====================
+## ==== Authentication Pages (8) ====
 
 - Login
 - Register
@@ -353,7 +353,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Admin Pages (4) ====================
+## ==== Admin Pages (4) ====
 
 - Dashboard
 - Users
@@ -362,7 +362,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Careers Pages (5) ====================
+## ==== Careers Pages (5) ====
 
 - Careers
 - Career Detail
@@ -372,7 +372,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Roadmaps Pages (8) ====================
+## ==== Roadmaps Pages (8) ====
 
 - Roadmaps
 - Update Roadmap
@@ -384,8 +384,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Quiz Pages (4) ====================
-
+## ==== Quiz Pages (4) ====
 - Quizzes
 - Quiz View (Admin Editor)
 - Quiz Start
@@ -393,7 +392,7 @@ useEffect(() => {
 
 ---
 
-## ==================== Other Pages (6) ====================
+## ===== Other Pages (6) =====
 
 - Notifications & Feedback
 - Settings
@@ -404,7 +403,7 @@ useEffect(() => {
 
 ---
 
-# ==================== Project Statistics ====================
+# ===== Project Statistics ====
 
 | Item | Count |
 |---|---|
@@ -415,7 +414,7 @@ useEffect(() => {
 
 ---
 
-# ==================== Design Preservation ====================
+# ===== Design Preservation =====
 
 The original `style.css` file was fully preserved without modifying the design structure to ensure:
 
@@ -425,7 +424,7 @@ The original `style.css` file was fully preserved without modifying the design s
 
 ---
 
-# =============== Notes ====================
+# ====== Notes =====
 
 - The project uses centralized API architecture for easier backend integration.
 - No unnecessary dependencies were added.
@@ -434,7 +433,7 @@ The original `style.css` file was fully preserved without modifying the design s
 
 ---
 
-# =========Developed For =================
+# ========= Developed For =================
 
 Graduation Project — TAMYEZ Platform Dashboard System
 
